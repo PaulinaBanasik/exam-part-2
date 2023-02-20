@@ -1,0 +1,29 @@
+.main-bg {
+  background-color: #cacaca;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.register {
+  border: 1px solid #333333;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.register-form {
+  padding: 25px;
+}
+.register-form input {
+  background-color: #f5f8fb;
+}
+
+.btn-sign-in {
+  background-color: #13c26e;
+  color: #fff;
+}
+.btn-sign-in :hover {
+  background-color: #e3f5e7;
+}/*# sourceMappingURL=style.css.map */

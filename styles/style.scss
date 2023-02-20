@@ -1,0 +1,38 @@
+$color-bright-grey: #f5f8fb;
+$color-middle-grey: #cacaca;
+$color-dark-grey: #333333;
+$color-green: #13c26e;
+$color-green-2: #e3f5e7;
+$color-white: #fff;
+
+.main-bg {
+    background-color: $color-middle-grey;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    border: 1px solid $color-dark-grey;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.register-form {
+    padding: 25px;
+    
+    input {
+        background-color: $color-bright-grey;
+    }
+}
+
+.btn-sign-in {
+    background-color: $color-green;
+    color: $color-white;
+
+    :hover {
+        background-color: $color-green-2;
+    }
+}
